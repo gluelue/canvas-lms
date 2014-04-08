@@ -10,6 +10,7 @@ This install document assumes the following:
 * That the user has a basic understanding of Ruby and how to install gems.
 * That the user is willing to use Apache as the web server.  NGINX and LIGHTTPD are not discussed in the materials.
 * That the user is willing to use Redis, not MEMCACHED, as a caching server. 
+* That the user understands that this is open source software, it is not commercially supported, and that the user installs and uses the software and related materials at their own risk.
 
 ---
 ##Installing Requirements for Canvas
