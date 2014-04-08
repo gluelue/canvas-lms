@@ -80,7 +80,7 @@ Yes, Canvas can send mail on it's own, but I like to use Postfix to have better 
 ###Download Canvas Via Git
 
 	>cd /var
-	>sudo git clone https://github.com/instructure/canvas-lms.git canvas
+	>sudo git clone https://github.com/gluelue/canvas-lms canvas
 	>cd canvas/
 	>sudo git branch --set-upstream stable origin/stable
 	
