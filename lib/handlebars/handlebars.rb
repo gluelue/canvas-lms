@@ -42,6 +42,7 @@ class Handlebars
     #   plugin - See `compile`
     def compile_file(file, root_path, compiled_path, plugin=nil)
       require 'execjs'
+      require 'multi_json'
       id       = file.gsub(root_path + '/', '').gsub(/.handlebars$/, '')
       path     = "#{compiled_path}/#{id}.js"
       dir      = File.dirname(path)
