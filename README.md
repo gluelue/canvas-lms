@@ -12,7 +12,6 @@ This install document assumes the following:
 * That the user is willing to use Redis, not MEMCACHED, as a caching server. 
 
 ---
-
 ##Installing Requirements for Canvas
 
 ---
@@ -129,7 +128,6 @@ Near the end of the DB setup, you'll be asked for an email address, password, an
 	>sudo bundle _1.5.3_ exec rake canvas:compile_assets
 
 ---
-
 ##Securing Canvas
 
 ---
