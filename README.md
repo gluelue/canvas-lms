@@ -240,11 +240,11 @@ For Ubuntu, you can use the redis-server package. However, on Precise, it's not 
 
 After installing redis, start the server. There are multiple options for doing this. You can set it up so it runs automatically when the server boots, or you can run it manually.
 
-Now we need to go back to your canvas-lms directory and edit the configuration. Inside the config folder, we're going to copy cache_store.yml.example and edit it:
+Now we need to go back to your canvas-lms directory and edit the configuration. Inside the config folder, we're going to copy two files that already set up for a production system where redis is installed on the same system as Canvas.
 
 	>sudo cp config/cache_store.yml.production config/cache_store.yml
 	>sudo cp config/redis.yml.production config/redis.yml 
-	
+
 In the example, redis is running on the same server as Canvas. That's not ideal in a production setup, since Rails and redis are both memory-hungry. Just change 'localhost' to the address of your redis instance server if you decide to change it.
 
 Canvas has the option of using a different redis instance for cache and for other data. The simplest option is to use the same redis instance for both. If you would like to split them up, keep the redis.yml config for data redis, but add another separate server list to cache_store.yml to specify which instance to use for caching.
