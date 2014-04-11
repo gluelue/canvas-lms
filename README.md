@@ -1,5 +1,13 @@
 ##Canvas LMS
 
+
+###Why Canvas?
+
+In my search to find a LMS (Learning Management System) that would serve my needs.  While there are a number of open source LMS platforms, they were either far too much for what I needed or were almost impossible to set up and configure.
+
+That's where Canvas comes in.  Does Canvas have any drawbacks?  Yep.  It's not going to serve up your SCORM compliant content, but if you have PowerPoints or videos, Canvas will work just fine.  Canvas is also quite easy to set up, once you understand how Ruby, Gems, Apache, and Redis all work together.
+
+
 ---
 
 This install document assumes the following:
