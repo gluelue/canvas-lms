@@ -23,6 +23,7 @@ This install document assumes the following:
 ---
 ##Installing Requirements for Canvas
 
+##Note:  This install will not work on the new LTS release of Ubuntu. Still working on that.
 ---
 
 ###First Update Your System
