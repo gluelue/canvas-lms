@@ -60,7 +60,7 @@ Canvas will not work with the 1.6.1 version of bundler.  As such, you need to ba
 	>sudo gem install rake
 			
 ###Install Passenger Phusion
-	>sudo apt-get install passenger-common1.9.1
+	>sudo apt-get install libapache2-mod-passenger
 		
 ###Install Postgres
 	>sudo apt-get install postgresql-9.1
